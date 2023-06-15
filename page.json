@@ -1,0 +1,26 @@
+{
+  "sections": {
+    "header": {
+      "type": "header",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "landing": {
+      "type": "landing-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": ["header", "landing", "footer"]
+}

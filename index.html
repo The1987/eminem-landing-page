@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eminem Landing Page</title>
+    <link rel="stylesheet" href="assets/styles/layout.css">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <link rel="stylesheet" href="assets/styles/images.css">
+    <link rel="stylesheet" href="assets/styles/indicators.css">
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="flex-section flex-header">
+            <img class="logo" src="assets/icons/branding/EminemLogoTransparent.png" alt="" role="img" />
+        </div>
+        <div class="flex-section flex-page">
+            <div class="flex-top-section">
+                <div id="message-container-id" class="message-container">
+                    <div class="message-item left">
+                    </div>
+                    <div class="message-item right">
+                        <h4 class="availability">General Stock</h4>
+                        <img id="close-button" class="close" src="assets/icons/close/X.svg" alt="">
+                        <h3 class="product-title">Product Title</h3>
+                        <p class="short-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut vitae
+                            magni laborum quod ratione totam omnis placeat? Suscipit, dolor reiciendis.</p>
+                        <button class="shop-now" role="button">Shop Now</button>
+                    </div>
+                </div>
+                <div class="indicators-container">
+                    <div class="indicators-item left">
+                        <span id="left-offer-button" class="outter-dot outter-color">
+                            <span class="dot inner-color"></span>
+                        </span>
+                    </div>
+                    <div id="right-offer-button" class="indicators-item right">
+                        <span class="outter-dot outter-color">
+                            <span class="dot inner-color"></span>
+                        </span>
+                    </div>
+                </div>
+                <picture>
+                    <source media="(min-width:650px)" srcset="assets/images/LargeGroupCropped.png">
+                    <source media="(min-width:465px)" srcset="assets/images/LargeGroupCroppedMobile.png">
+                    <img class="image" src="assets/images/LargeGroupCroppedMobile.png" alt="" role="img">
+                </picture>
+            </div>
+            <div class="flex-bottom-section">
+                <div class="flex-bottom-item left">
+                </div>
+                <div class="flex-bottom-item right">
+                </div>
+            </div>
+            <div class="flex-form-section">
+                <div class="background-image">
+                    <picture class="flex-bottom-item-image left">
+                        <source class="left" srcset="assets/images/The_Way_I_am_Croop_-_Liv_1024x1024.png">
+                        <img class="left" src="assets/images/The_Way_I_am_Croop_-_Liv_1024x1024.png" alt="" role="img">
+                    </picture>
+                </div>
+                <div class="content">
+                    <div class="content-item top">
+                        <h2>Be the first to know</h2>
+                        <p>Sign up for the official Eminem Store list and receive updates on merch drops, exclusive
+                            bundles, and other offerings.</p>
+                    </div>
+                    <div class="content-item bottom">
+                        <form id="form_marketing" action="">
+                            <input type="email" id="email" name="email" placeholder="Email Address"><br><br>
+                            <input type="text" id="zipcode" name="zipcode" placeholder="Zip Code"
+                                pattern="[0-9]{5}"><br><br>
+                            <p class="form-paragraph">By submitting this form I agree to receive news, tour dates, and
+                                special offers from Eminem. By submitting this form, you agree to the <a href="#"
+                                    target="_blank" role="link">Universal Music Group Privacy Policy</a>.</p>
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-section flex-footer">
+            <a href="https://www.facebook.com/eminem/" target="_blank">
+                <img class="social-icon" src="assets/icons/socials/facebook.svg" alt="" role="img" />
+            </a>
+            <a href="https://twitter.com/Eminem" target="_blank">
+                <img class="social-icon" src="assets/icons/socials/twitter.svg" alt="" role="img" />
+            </a>
+            <a href="https://www.youtube.com/channel/UCfM3zsQsOnfWNUppiycmBuw" target="_blank">
+                <img class="social-icon" src="assets/icons/socials/youtube.svg" alt="" role="img" />
+            </a>
+            <a href="https://www.instagram.com/eminem/?hl=en" target="_blank">
+                <img class="social-icon" src="assets/icons/socials/instagram.svg" alt="" role="img" />
+            </a>
+            <a href="https://music.apple.com/us/artist/eminem/111051" target="_blank">
+                <img class="social-icon" src="assets/icons/socials/apple.svg" alt="" role="img" />
+            </a>
+            <a href="https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR" target="_blank">
+                <img class="social-icon" src="assets/icons/socials/spotify.svg" alt="" role="img" />
+            </a>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
